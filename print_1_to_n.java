@@ -1,10 +1,7 @@
-
-//------------------------print 1 to n using recurssion---------------------------------
-
+package Assignment_1;
 import java.util.Scanner;
 public class print_1_to_n {
-
-    static void printNumbers(int n) {
+    public static void printNumbers(int n) {
         if (n == 0) {
             return;
         }
@@ -18,6 +15,4 @@ public class print_1_to_n {
         int n = sc.nextInt();
         printNumbers(n);
     }
-    
-    
 }
